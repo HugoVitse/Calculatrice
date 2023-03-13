@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr-fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculette</title>
+</head>
+<body>
+    <div id="container">
+        <div id="ecran">
+            <p id="screen"> </p>
+        </div>
+        <div class="grille">
+            <button onclick="button('(')" class="ligne">(</button>
+            <button onclick="button(')')"class="ligne">)</button>
+            <button onclick="button('C')" class="ligne">C</button>
+            <button onclick="button('÷')" class="ligne">÷</button>
+            <button onclick="button('7')" class="ligne">7</button>
+            <button onclick="button('8')" class="ligne">8</button>
+            <button onclick="button('9')" class="ligne">9</button>
+            <button onclick="button('×')" class="ligne">×</button>
+            <button onclick="button('4')" class="ligne">4</button>
+            <button onclick="button('5')" class="ligne">5</button>
+            <button onclick="button('6')" class="ligne">6</button>
+            <button onclick="button('+')" class="ligne">+</button>
+            <button onclick="button('1')" class="ligne">1</button>
+            <button onclick="button('2')" class="ligne">2</button>
+            <button onclick="button('3')" class="ligne">3</button>
+            <button onclick="button('-')" class="ligne">-</button>
+            <button onclick="button('0')" class="ligne">0</button>
+            <button class="ligne"></button>
+            <button onclick="button(',')" class="ligne">,</button>
+            <button onclick="button('=')" class="ligne">=</button>    
+        </div>
+    </div>
+</body>
+
+<script src="app.js"></script>
+</html>
