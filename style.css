@@ -1,6 +1,7 @@
 html{
     color: #ff4062;
     font-family: 'Times New Roman', Times, serif;
+    background-color: #2b2a2a;  
 }
 .grille {
     color: #ff4062;
@@ -24,6 +25,7 @@ html{
 }
 
 #ecran{
+    overflow:hidden;
     height:200px;
     border-bottom:2px solid black;
     border-radius:10px;
@@ -31,12 +33,13 @@ html{
 }
 
 #container{
-    width:30%;
+    width: 30%;
     position: absolute;
     left: 50%;
-    transform: translateX(-50%) scale(0.7);
-    border:2px solid black;
-    border-radius:25px;
+    transform: translate(-50%,-50%) scale(0.7);
+    border: 2px solid black;
+    border-radius: 25px;
+    top: 50%;
 }
 
 .ligne:active{
